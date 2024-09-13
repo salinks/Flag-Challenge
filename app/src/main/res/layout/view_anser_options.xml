@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="3dp"
+            android:id="@+id/cvAnsOption"
+            app:strokeColor="@color/black"
+            app:strokeWidth=".5dp">
+
+            <TextView
+                android:id="@+id/tvAnsOpt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="14sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tvAnsRes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:textSize="14sp"
+            android:gravity="center"/>
+    </LinearLayout>
+</layout>
